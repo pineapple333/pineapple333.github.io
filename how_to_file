@@ -1,0 +1,15 @@
+1.Push branch to remote:
+  git push -u <remote name> <local branch name>
+2.If we're in another branch and want to merge the branch with 
+'master' then:
+  git checkout master
+  git pull origin master
+  git branch --merged
+  git merge <the name of a branch we want to merge with the 'master'>
+  git push origin master
+3. Deleting a branch:
+  git branch --merged
+  git branch -d <the name of the branch we want to delete>
+  git branch -a - to watch all branches
+  git push origin --delete <the name of the remote branch we want to 
+delete>
